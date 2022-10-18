@@ -4,10 +4,10 @@ import styles from "../../styles/Header.module.scss";
 
 const hLogo = () => (
     <>
-    <div className={styles.hLogo}>
+    <section className={styles.hLogo}>
         <Image
         src={logo} />
-    </div>
+    </section>
     </>
 );
 

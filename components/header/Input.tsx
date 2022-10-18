@@ -4,11 +4,13 @@ import glass from "../../public/magnifyingglass.svg";
 
 const Input = () => (
     <>
+    <section>
     <input className={styles.input} placeholder="Поиск"></input>
     <div className={styles.inputPic}>
         <Image
         src={glass} />
     </div>
+    </section>
     </>
 );
 
