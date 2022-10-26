@@ -7,18 +7,34 @@ import TradeMark from "../components/footer/TradeMark";
 import Finput from "../components/footer/Finput";
 import LanguageF from "../components/footer/Language";
 import Info from "../components/footer/Info";
+import styles from "../styles/Footer.module.scss";
 
 const Footer = () => (
     <>
-    <Flogo/>
-    <Ftext/>
-    <FPhone/>
-    <AppStore/>
-    <PlayMarket/>
-    <TradeMark/>
+ <footer className={styles.footer}>
+
+    <section>
+         <section className={styles.box}>
+           <Flogo/>
+           <Ftext/>
+         </section>
+         <FPhone/>
+         <section className={styles.box}>
+          <AppStore/>
+          <PlayMarket/>
+         </section>
+         <TradeMark/>
+    </section>
+
+
+    <section>
+        <section className={styles.footerBox}>
     <Finput/>
     <LanguageF/>
+    </section>
     <Info/>
+    </section>
+ </footer>
     </>
 );
 

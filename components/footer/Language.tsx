@@ -4,7 +4,7 @@ import flag from "../../public/flag.svg";
 
 const LanguageF = () => (
     <>
-    <section>
+    <section className={styles.languageFooter}>
         <h1 className={styles.langText}>Таиланд</h1>
         <div className={styles.langPic}>
         <Image

@@ -4,7 +4,7 @@ import glass from "../../public/magnifyingglass.svg";
 
 const Finput = () => (
     <>
-    <section>
+    <section className={styles.inputBox}>
     <input className={styles.fInput} placeholder="Поиск"></input>
     <div className={styles.inputIcon}>
         <Image

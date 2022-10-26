@@ -4,7 +4,7 @@ import phone from "../../public/phone.svg";
 
 const FPhone = () => (
     <>
-    <section>
+    <section className={styles.box}>
     <div className={styles.phoneIcon}>
         <Image
         src={phone}/>
