@@ -4,9 +4,9 @@ import flag from "../../public/flag.svg";
 
 const Language = () => (
     <>
-    <section>
+    <section className={styles.language}>
         <h1 className={styles.langText}>Таиланд</h1>
-        <div className={styles.langPic}>
+        <div className={styles.langImg}>
         <Image
             src={flag}/>
         </div>

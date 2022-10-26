@@ -9,16 +9,17 @@ import user from "../../public/user-circle.svg";
 const Navbar = () => (
     <>
     <nav>
-        <ul>
+        <ul className={styles.nav}>
             <li className={styles.listItem}>
-                <div className={styles.IOne}>
+            <div className={styles.img}>
                     <Image
                     src={LMarker} />
                 </div>
-                <h2 className={styles.TOne}>На карте</h2>
+                <h2 className={styles.navText}>На карте</h2>
             </li>
             <li className={styles.listItem}>
-                <div className={styles.ITwo}>
+                <div className={styles.imgWMarker}>
+                <div>
                      <Image
                     src={Mmarker} />
                 </div>
@@ -26,21 +27,22 @@ const Navbar = () => (
                     <Image
                     src={Marker} />
                 </div>
-                <h2 className={styles.TTwo}>Сообщения</h2>
+                </div>
+                <h2 className={styles.navText}>Сообщения</h2>
             </li>
             <li className={styles.listItem}>
-                <div className={styles.IThree}>
+                <div className={styles.img}>
                     <Image
                     src={heart} />
                 </div>
-                <h2 className={styles.TThree}>Избранное</h2>
+                <h2 className={styles.navText}>Избранное</h2>
             </li>
             <li className={styles.listItem}>
-                <div className={styles.IFour}>
+                <div className={styles.img}>
                     <Image
                     src={user} />
                 </div>
-                <h2 className={styles.TFour}>Профиль</h2>
+                <h2 className={styles.navText}>Профиль</h2>
             </li>
         </ul>
     </nav>

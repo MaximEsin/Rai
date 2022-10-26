@@ -1,130 +1,73 @@
+// Header
+
+.header {
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+padding: 1rem;
+align-items: center;
+}
+
 // Header logo
 
 .hLogo {
-position: absolute;
-width: 130px;
-height: 50px;
-left: 70px;
-top: 54px;
+margin-left: 50px;
 }
 
 // Header text
 
 .hText {
-position: absolute;
-width: 66px;
-height: 40px;
-left: 212px;
-top: 33px;
-font-family: 'Montserrat';
+font-family: "Montserrat";
 font-style: normal;
 font-weight: 300;
 font-size: 38px;
 line-height: 40px;
 text-align: center;
 color: #263238;
+margin-left: 20px;
 }
 
 // List
 
-.listItem {
+.nav {
+display: flex;
+flex-direction: row;
+justify-content: center;
 list-style-type: none;
 }
 
+.listItem {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
 // Icons
+
+.img {
+margin-right: 7px;
+margin-left: 30px;
+margin-top: 7px;
+}
+
+.imgWMarker {
+position: relative;
+margin-right: 7px;
+margin-left: 30px;
+margin-top: 7px;
+}
 
 .marker {
 position: absolute;
-top: 62px;
-left: 450px;
-}
-
-.IOne {
-position: absolute;
-width: 24px;
-height: 24px;
-left: 306px;
-top: 71px;
-}
-
-.ITwo {
-position: absolute;
-width: 24px;
-height: 24px;
-left: 433px;
-top: 71px;
-}
-
-.IThree {
-position: absolute;
-width: 20px;
-height: 17px;
-left: 580px;
-top: 75px;
-}
-
-.IFour {
-position: absolute;
-width: 24px;
-height: 24px;
-left: 720.2px;
-top: 71px;
+bottom: 33px;
+left: 18px;
+width: 9px;
+height: 9px;
 }
 
 // Texts
 
-.TOne {
-position: absolute;
-width: 65px;
-height: 17px;
-left: 337px;
-top: 60px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-color: #263238;
-}
-
-.TTwo {
-position: absolute;
-width: 87px;
-height: 17px;
-left: 464px;
-top: 62px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-color: #263238;
-}
-
-.TThree {
-position: absolute;
-width: 84px;
-height: 17px;
-left: 607px;
-top: 62px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-color: #263238;
-}
-
-.TFour {
-position: absolute;
-width: 69px;
-height: 17px;
-left: 747px;
-top: 62px;
-font-family: 'Montserrat';
+.navText {
+font-family: "Montserrat";
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -135,14 +78,18 @@ color: #263238;
 
 // Input
 
-.input {
-position: absolute;
-width: 226px;
-height: 41px;
-left: 841px;
-top: 63px;
+.inputBlock {
 background: rgba(237, 237, 237, 0.4);
 border-radius: 10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 226px;
+height: 41px;
+}
+
+.input {
+background: rgba(237, 237, 237, 0.1);
 border: none;
 }
 
@@ -152,26 +99,28 @@ font-style: normal;
 font-weight: 500;
 font-size: 12px;
 line-height: 150%;
-padding-left: 21px;
 color: #63767E;
 }
 
 .inputPic {
-position: absolute;
 width: 18px;
 height: 18px;
-left: 1031px;
-top: 75px;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+margin-left: 20px;
 }
 
 // Language
 
+.language {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
 .langText {
-position: absolute;
-width: 74px;
-height: 40px;
-left: 1086px;
-top: 50px;
+margin-right: 10px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
@@ -181,11 +130,12 @@ text-align: center;
 color: #263238;
 }
 
-.langPic {
-position: absolute;
-width: 31px;
-height: 31px;
-left: 1179px;
-top: 67px;
-border-radius: 4px;
+.langImg {
+    margin-top: 16px;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+      display: none;
+    }
+  }
