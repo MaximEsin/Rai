@@ -1,4 +1,4 @@
-import styles from "../styles/404.module.scss";
+import styles from "../../styles/404.module.scss";
 
 const Button = () => (
     <>

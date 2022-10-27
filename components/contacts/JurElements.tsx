@@ -4,51 +4,37 @@ import styles from "../../styles/Contacts.module.scss";
 
 const JurElements = () => (
     <>
-    <section>
-        <ul className={styles.jurList}>
-            <li>
-                <div className={styles.iconOne}>
+    <section className={styles.jurList}>
+            <section className={styles.firstComp}>
             <Image
             src={icon}/>
-            </div>
-            <h2 className={styles.textOne}>Буклет №1</h2>
-            </li>
-            <li>
-                <div className={styles.iconTwo}>
+            <h2 className={styles.compText}>Буклет №1</h2>
+            </section>
+            <section className={styles.comp}>
             <Image
             src={icon}/>
-            </div>
-            <h2 className={styles.textTwo}>Буклет №2</h2>
-            </li>
-            <li>
-                <div className={styles.iconThree}>
+            <h2 className={styles.compText}>Буклет №2</h2>
+            </section>
+            <section className={styles.comp}>
             <Image
             src={icon}/>
-            </div>
-            <h2 className={styles.textThree}>Буклет №3</h2>
-            </li>
-            <li>
-                <div className={styles.iconFour}>
+            <h2 className={styles.compText}>Буклет №3</h2>
+            </section>
+            <section className={styles.comp}>
             <Image
             src={icon}/>
-            </div>
-            <h2 className={styles.textFour}>Буклет №4</h2>
-            </li>
-            <li>
-                <div className={styles.iconFive}>
+            <h2 className={styles.compText}>Буклет №4</h2>
+            </section>
+            <section className={styles.comp}>
             <Image
             src={icon}/>
-            </div>
-            <h2 className={styles.textFive}>Буклет №5</h2>
-            </li>
-            <li>
-                <div className={styles.iconSix}>
+            <h2 className={styles.compText}>Буклет №5</h2>
+            </section>
+            <section className={styles.lastComp}>
             <Image
             src={icon}/>
-            </div>
-            <h2 className={styles.textSix}>Буклет №6</h2>
-            </li>
-            </ul>
+            <h2 className={styles.compText}>Буклет №6</h2>
+            </section>
             </section>
             </>
 );

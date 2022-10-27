@@ -7,7 +7,8 @@ const Flogo = () => (
     <section className={styles.flogo}>
         <Image
         src={logo}/>
-        </section></>
+        </section>
+        </>
 );
 
 export default Flogo;

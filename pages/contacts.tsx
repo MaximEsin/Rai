@@ -6,12 +6,14 @@ import LowerText from "../components/contacts/LowerText";
 import Phone from "../components/contacts/Phone";
 import JurText from "../components/contacts/JurText";
 import JurElements from "../components/contacts/JurElements";
+import HeadText from "../components/contacts/HeadText";
 
 
 const Contacts = () => (
     <>
     <Header />
     <main>
+        <HeadText/>
         <BigLogo/>
         <MainText/>
         <LowerText/>
