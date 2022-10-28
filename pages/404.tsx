@@ -6,17 +6,22 @@ import ErrorCode from "../components/404/ErrorCode";
 import PageNotFound from "../components/404/PageNotFound";
 import NoPage from "../components/404/NoPage";
 import Button from "../components/404/Button";
+import styles from "../styles/404.module.scss";
 
 const Error = () => (
     <>
     <Header/>
-    <main>
+    <main className={styles.grid}>
+        <section>
         <ErrorText/>
         <ErrorLogo/>
         <ErrorCode/>
         <PageNotFound/>
+        </section>
+        <section>
         <NoPage/>
         <Button/>
+        </section>
     </main>
         <Footer/>
             </>

@@ -1,103 +1,108 @@
 // 404
 
-.footer {
-position: absolute;
-width: 1281px;
-height: 348px;
-left: 0px;
-top: 660px;
-background: #565656;
+.grid {
+display: grid;
+grid-template-columns: auto auto;
 }
 
 .ErrorText {
-position: absolute;
-width: 71px;
-height: 40px;
-left: 99px;
-top: 163px;
+margin-left: 80px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 40px;
-text-align: center;
 color: #263238;
 }
 
 .BigLogo {
-position: absolute;
-width: 264.7px;
-height: 157.9px;
-left: 104px;
-top: 247px;
+margin-left: 104px;
+margin-bottom: 1px;
 }
 
 .error {
-position: absolute;
-width: 178px;
-height: 40px;
-left: 146px;
-top: 370px;
+margin-left: 146px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 300;
 font-size: 90px;
 line-height: 40px;
-text-align: center;
 color: #263238;
+margin-top: 33px;
+margin-bottom: 24px;
 }
 
-.PNF {
-position: absolute;
-width: 241px;
-height: 80px;
-left: 121px;
-top: 489px;
+.PNFOne {
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 40px;
-text-align: center;
 letter-spacing: 1em;
 color: #263238;
+margin-left: 141px;
 }
 
-.NoPage {
-position: absolute;
-width: 344px;
-height: 120px;
-left: 588px;
-top: 277px;
+.PNFTwo {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+letter-spacing: 1em;
+color: #263238;
+margin-left: 120px;
+margin-bottom: 90px;
+}
+
+.NoPageSection {
+margin-top: 100px;
+}
+
+.NoPageOne {
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 40px;
-text-align: center;
 color: #263238;
+margin-bottom: 1px;
+margin-left: 25px;
+}
+
+.NoPageTwo {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 40px;
+color: #263238;
+margin-top: 1px;
+margin-bottom: 1px;
+margin-left: 20px;
+}
+
+.NoPageThree {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 40px;
+color: #263238;
+margin-top: 1px;
+margin-left: 110px;
 }
 
 .button {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px;
-gap: 10px;
-position: absolute;
-width: 383px;
-height: 57px;
-left: 580px;
-top: 436px;
 background: #89B948;
 border-radius: 14px;
 border: none;
+width: 383px;
+height: 57px;
+margin-top: 36px;
 }
 
 .buttonText {
-width: 82px;
-height: 20px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
@@ -105,7 +110,4 @@ font-size: 16px;
 line-height: 20px;
 text-align: center;
 color: #FFFFFF;
-flex: none;
-order: 0;
-flex-grow: 0;
 }
