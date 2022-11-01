@@ -2,8 +2,10 @@ import Image from "next/image";
 import icon from "../../public/docs.svg";
 import styles from "../../styles/Contacts.module.scss";
 
+
 const JurElements = () => (
     <>
+
     <section className={styles.jurList}>
             <section className={styles.firstComp}>
             <Image
