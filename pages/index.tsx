@@ -13,7 +13,7 @@ import LastComponent from "../components/main/LastComponent";
 const MainPage = () => (
   <>
     <Header />
-    <main>
+    <main className={styles.mainWrap}>
       <FirstComp />
       <SecondComp />
       <TitleOfDashboard />

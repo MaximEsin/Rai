@@ -6,15 +6,17 @@ import Language from "../components/header/Language";
 import styles from "../styles/Header.module.scss";
 
 const Header = () => (
-    <>
-     <header className={styles.header}>
-       <HLogo/> 
-       <HText/>
-       <Navbar/>
-       <Input/>
-       <Language/>
-     </header>
-    </>
+  <>
+    <section className={styles.headerWrap}>
+      <header className={styles.header}>
+        <HLogo />
+        <HText />
+        <Navbar />
+        <Input />
+        <Language />
+      </header>
+    </section>
+  </>
 );
 
 export default Header;

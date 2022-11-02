@@ -7,7 +7,7 @@ import ChastnyDom from "../../public/ChastnyDom.svg";
 const HeadOfDashboard = () => (
   <>
     <section className={styles.HODContainer}>
-      <section className={styles.HODFirstItem}>
+      <section className={styles.HODItem}>
         <div className={styles.HODImg}>
           <Image src={Apartment} />
         </div>

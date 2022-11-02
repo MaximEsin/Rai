@@ -10,32 +10,32 @@ import Info from "../components/footer/Info";
 import styles from "../styles/Footer.module.scss";
 
 const Footer = () => (
-    <>
- <footer className={styles.footer}>
+  <>
+    <section className={styles.footerWrap}>
+      <footer className={styles.footer}>
+        <section>
+          <section className={styles.box}>
+            <Flogo />
+            <Ftext />
+          </section>
+          <FPhone />
+          <section className={styles.box}>
+            <AppStore />
+            <PlayMarket />
+          </section>
+          <TradeMark />
+        </section>
 
-    <section>
-         <section className={styles.box}>
-           <Flogo/>
-           <Ftext/>
-         </section>
-         <FPhone/>
-         <section className={styles.box}>
-          <AppStore/>
-          <PlayMarket/>
-         </section>
-         <TradeMark/>
+        <section>
+          <section className={styles.footerBox}>
+            <Finput />
+            <LanguageF />
+          </section>
+          <Info />
+        </section>
+      </footer>
     </section>
-
-
-    <section>
-        <section className={styles.footerBox}>
-    <Finput/>
-    <LanguageF/>
-    </section>
-    <Info/>
-    </section>
- </footer>
-    </>
+  </>
 );
 
 export default Footer;

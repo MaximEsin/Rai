@@ -1,17 +1,15 @@
 // Header
 
-.header {
+.headerWrap {
 display: flex;
-justify-content: space-between;
-flex-wrap: nowrap;
-padding: 1rem;
-align-items: center;
+justify-content: center;
 }
 
-// Header logo
-
-.hLogo {
-margin-left: 50px;
+.header {
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+max-width: 1180px;
 }
 
 // Header text
@@ -22,8 +20,8 @@ font-style: normal;
 font-weight: 300;
 font-size: 38px;
 line-height: 40px;
-text-align: center;
 color: #263238;
+margin-right: 0;
 margin-left: 20px;
 }
 
@@ -40,6 +38,7 @@ list-style-type: none;
 display: flex;
 flex-direction: row;
 justify-content: center;
+margin-left: 0;
 }
 // Icons
 
@@ -86,6 +85,7 @@ flex-direction: row;
 justify-content: center;
 width: 226px;
 height: 41px;
+margin-left: 20px;
 }
 
 .input {
@@ -117,6 +117,7 @@ margin-left: 20px;
 display: flex;
 flex-direction: row;
 justify-content: center;
+margin-left: 19px;
 }
 
 .langText {

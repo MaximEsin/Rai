@@ -1,7 +1,13 @@
 // Footers
 
-.footer {
+.footerWrap {
 background: #565656;
+display: flex;
+justify-content: center;
+}
+
+.footer {
+max-width: 1180px;
 display: grid;
 grid-template-columns: auto auto;
 }
@@ -9,9 +15,10 @@ grid-template-columns: auto auto;
 // Footer components
 
 .flogo {
-margin-left: 50px;
+margin-top: 10px;
 margin-bottom: 1px;
-margin-top: 20px;
+margin-right: 0;
+margin-left: 0;
 }
 
 .box {
@@ -29,13 +36,12 @@ font-size: 38px;
 line-height: 40px;
 text-align: center;
 color: #ffffff;
-margin-left: 80px;
+margin-left: 20px;
 margin-bottom: 1px;
 margin-top: 10px;
 }
 
 .appPic {
-margin-left: 60px;
 margin-top: 1px;
 }
 
@@ -51,8 +57,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 17px;
 color: #ffffff;
-margin-left: 75px;
-margin-bottom: 50px;
+margin-left: 15px;
 }
 
 .footerBox {
@@ -64,9 +69,8 @@ justify-content: space-between;
 // Footer phone
 
 .phoneIcon {
-margin-left: 50px;
 margin-top: 1px;
-margin-bottom: 20px;
+
 }
 
 .phoneNum {
@@ -80,6 +84,7 @@ letter-spacing: 0.2em;
 color: #ffffff;
 margin-left: 20px;
 margin-top: 1px;
+margin-bottom: 0;
 }
 
 //Footer input
@@ -94,7 +99,7 @@ border-radius: 10px;
 width: 358px;
 height: 1px;
 margin-top: 35px;
-margin-left: 180px;
+margin-left: 210px;
 margin-bottom: 1px;
 margin-right: 1px;
 }
@@ -126,9 +131,8 @@ margin-top: 4px;
 display: flex;
 flex-direction: row;
 justify-content: center;
-margin-top: 10px;
-margin-bottom: 1px;
-margin-right: 70px;
+margin-top: 5px;
+margin-left: 47px;
 }
 
 .langText {
@@ -143,8 +147,7 @@ color: #ffffff;
 }
 
 .langPic {
-margin-right: 20px;
-margin-top: 25px;
+margin-top: 30px;
 }
 
 // Info
@@ -157,7 +160,7 @@ font-size: 14px;
 line-height: 17px;
 color: #ffffff;
 margin-top: 1px;
-margin-bottom: 50px;
+margin-bottom: 30px;
 margin-right: 1px;
 }
 
@@ -166,10 +169,10 @@ list-style-type: none;
 display: grid;
 grid-template-columns: auto auto;
 line-height: 40px;
-margin-left: 150px;
-margin-top: 60px;
+margin-left: 180px;
+margin-top: 20px;
 }
 
 .infoSecondBlock {
-margin-right: 200px;
+margin-right: 150px;
 }

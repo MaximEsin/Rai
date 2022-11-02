@@ -9,58 +9,51 @@ import calendar from "../../public/Calendar.svg";
 import housePlus from "../../public/HousePlus.svg";
 
 const SecondComp = () => (
-    <>
+  <>
     <section className={styles.secondContainer}>
-        <div className={styles.firstContainer}>
-            <div className={styles.img}>
-                <Image
-                src={keys}/>
-            </div>
-            <p className={styles.ContainerText}>Купить</p>
+      <div className={styles.Container}>
+        <div className={styles.img}>
+          <Image src={keys} />
         </div>
-        <div className={styles.Container}>
-            <div className={styles.img}>
-                <Image
-                src={bed}/>
-            </div>
-            <p className={styles.ContainerText}>Снять</p>
+        <p className={styles.ContainerText}>Купить</p>
+      </div>
+      <div className={styles.Container}>
+        <div className={styles.img}>
+          <Image src={bed} />
         </div>
-        <div className={styles.Container}>
-            <div className={styles.img}>
-                <Image
-                src={newBuilding}/>
-            </div>
-            <p className={styles.ContainerText}>Новостройки</p>
+        <p className={styles.ContainerText}>Снять</p>
+      </div>
+      <div className={styles.Container}>
+        <div className={styles.img}>
+          <Image src={newBuilding} />
         </div>
-        <div className={styles.Container}>
-            <div className={styles.img}>
-                <Image
-                src={house}/>
-            </div>
-            <p className={styles.ContainerText}>Дома и участки</p>
+        <p className={styles.ContainerText}>Новостройки</p>
+      </div>
+      <div className={styles.Container}>
+        <div className={styles.img}>
+          <Image src={house} />
         </div>
-        <div className={styles.Container}>
-            <div className={styles.img}>
-                <Image
-                src={commercial}/>
-            </div>
-            <p className={styles.ContainerText}>Коммерческая</p>
+        <p className={styles.ContainerText}>Дома и участки</p>
+      </div>
+      <div className={styles.Container}>
+        <div className={styles.img}>
+          <Image src={commercial} />
         </div>
-        <div className={styles.Container}>
-            <div className={styles.img}>
-                <Image
-                src={calendar}/>
-            </div>
-            <p className={styles.ContainerText}>Посуточно</p>
+        <p className={styles.ContainerText}>Коммерческая</p>
+      </div>
+      <div className={styles.Container}>
+        <div className={styles.img}>
+          <Image src={calendar} />
         </div>
-        <div className={styles.lastContainer}>
-            <div className={styles.img}>
-                <Image
-                src={housePlus}/>
-            </div>
+        <p className={styles.ContainerText}>Посуточно</p>
+      </div>
+      <div className={styles.Container}>
+        <div className={styles.img}>
+          <Image src={housePlus} />
         </div>
+      </div>
     </section>
-    </>
+  </>
 );
 
 export default SecondComp;
