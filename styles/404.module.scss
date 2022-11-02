@@ -1,12 +1,19 @@
 // 404
 
+.mainWrap {
+justify-content: center;
+max-width: 1180px;
+margin-left: auto;
+margin-right: auto;
+}
+
 .grid {
 display: grid;
 grid-template-columns: auto auto;
 }
 
 .ErrorText {
-margin-left: 80px;
+margin-left: 22px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
@@ -16,12 +23,12 @@ color: #263238;
 }
 
 .BigLogo {
-margin-left: 104px;
+margin-left: 22px;
 margin-bottom: 1px;
 }
 
 .error {
-margin-left: 146px;
+margin-left: 65px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 300;
@@ -40,7 +47,7 @@ font-size: 16px;
 line-height: 40px;
 letter-spacing: 1em;
 color: #263238;
-margin-left: 141px;
+margin-left: 60px;
 }
 
 .PNFTwo {
@@ -51,7 +58,7 @@ font-size: 16px;
 line-height: 40px;
 letter-spacing: 1em;
 color: #263238;
-margin-left: 120px;
+margin-left: 40px;
 margin-bottom: 90px;
 }
 

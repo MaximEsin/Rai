@@ -9,22 +9,24 @@ import Button from "../components/404/Button";
 import styles from "../styles/404.module.scss";
 
 const Error = () => (
-    <>
-    <Header/>
-    <main className={styles.grid}>
+  <>
+    <Header />
+    <section className={styles.mainWrap}>
+      <main className={styles.grid}>
         <section>
-        <ErrorText/>
-        <ErrorLogo/>
-        <ErrorCode/>
-        <PageNotFound/>
+          <ErrorText />
+          <ErrorLogo />
+          <ErrorCode />
+          <PageNotFound />
         </section>
         <section>
-        <NoPage/>
-        <Button/>
+          <NoPage />
+          <Button />
         </section>
-    </main>
-        <Footer/>
-            </>
-)
+      </main>
+    </section>
+    <Footer />
+  </>
+);
 
 export default Error;
