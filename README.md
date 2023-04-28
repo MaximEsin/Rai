@@ -1,7 +1,5 @@
 # Rai
 
-This is the layout of Rai real estate web application
-
-Made with next.js
-
-I just grid and flexbox here. This is my first project fully made by my own ideas.
+- This is the layout of Rai real estate web application
+- Next.js, SCSS, grid layout, flexbox
+- This is one of my first works, i should edit it, but i don't plan it in the nearest future.
